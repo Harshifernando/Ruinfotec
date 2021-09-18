@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1">
+	<title>EDU WEB</title>
+	<link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-
+    scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/20210917_142503.png" class="logo">
+            <div class="header-text">
+                <h1>Learn from doing</h1>
+                <h2>HTML basics</h2>
+                <a href="Read.html">Read more</a>
+            </div>
+             </div>
+    </section>
+    
+    
+<nav id="sideNav">
+    <ul>
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#features">FEATURES</a></li>
+        <li><a href="#courses">COURSE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+ </nav>
+<img src="images/menu.png" id="menuBtn">
+      
+  <!--about  -->  
+      
+<section id="about">
+    <div class="about-left-col">
+    <img src="images/about.png">
+        </div>
+     <div class="about-right-col">
+         <h1>ABOUT US</h1>
+         
+<P><br>Any successful career starts with good education Together <br> with us you will have
+deeper Knowledge of the subject that <br>will be especially useful for you when
+climbing the career<br> ladder.
+</P>
+    </div>
+    </section>    
+    
+ <!--features -->  
+    
+    <section id="features"> 
+        <div class="features-row">
+            <div class="feature-col">
+                <img src="images/pic-1.png"> 
+                <h4>Learn Anywhere</h4>
+                <p>Switch between your computer, tablet or mobile device</p>
+            </div>
+             <div class="feature-col">
+            <img src="images/pic-2.png"> 
+                <h4>Expert Teacher</h4>
+                <p>Learn from industry experts who are passionate about teaching.</p>
+            </div>
+             <div class="feature-col"> <img src="images/pic-3.png"> 
+                <h4>Unlimted Access</h4>
+                <p>Choose what you'd like to learn from our extensive subsription library.</p>            
+            </div>
+        </div>
+    </section>
+    
+    
+<!--courses -->   
+    
+  <section id="courses" >
+      <div class="container course-row">
+          <div class="course-left-col">
+              <div class="course-text">
+                  <h1>Browse our lesson</h1><br><br>
+                  <p>HTML and CSS are two pillars of web development, they are used to create web pages you see every day. HTML provides the structure to your web page and CSS provides them the style to look better. If you want to become a front-end web developer or web designer then a good knowledge of HTML and CSS is a must.</p>
+                  <a href="learn.html">Learn more</a>
+              </div>
+          </div>
+          <div class="course-right-col">
+          <img src="images/offer.png">
+          </div>
+      </div>
+      </section> 
+    
+ <!--Contact -->
+    
+    <section id="contact">
+        <div class="container contact-row">
+            <div class="contact-left-col">
+            <h1> Sign Up to joing our <br>learning community</h1>
+            <form>
+                <input type="text" placeholder="Enter Name">
+                 <input type="email" placeholder="Enter Email">
+                 <input type="passsword" placeholder="Enter password">
+                <div class="btn">
+                    <a href="#">Sign up</a>              
+                </div>
+                </form>
+            
+            </div>
+            <div class="contact-right-col">
+            <img src="images/contact.png">
+            </div> 
+        </div>
+    </section>
+    
+<!--footer   -->    
+    
+ <section id="footer" >
+     <div class="container footer-row">
+     <hr>
+     <div class="footer-left-col">
+        <div class="footer-links">
+          <div class="link-title">
+              <h4>Course</h4>
+              <small>lesson</small><br>
+             <small>learn more</small>
+        </div>
+            <div class="link-title">
+              <h4>About Us</h4>
+              <small>Request Demo</small><br>
+             <small>FAQs</small>
+        </div>
+            <div class="link-title">
+              <h4>Support</h4>
+              <small>Features</small><br>
+             <small>Contact Us</small>
+        </div>
+            <div class="link-title">
+              <h4>Explore</h4>
+              <small>Knowledge</small><br>
+             <small>Experience</small>
+        </div>
+         </div>
+         </div>
+     <div class="footer-right-col">
+          <div class="footer-info">
+         <div class="copyright-text">
+             <small>RNCOE@gmail.com</small><br>
+              <small>copyright 2021 RNCOE</small>
+              </div>
+        <div class="footer-logo"></div>
+        
+         </div>
+         </div>      
+     </div>
+    </section> 
+    
+  
+  <!--social-icons     -->     
+    
+ <div class= "social-icons">
+     <img src="images/facebook.png">
+     <img src="images/instagram.png">
+     <img src="images/twitter.png">
+     <img src="images/linkedin.png">
+    </div> 
+    
+    
+    
+   
+    
+     
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            
+        }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+        var scroll = new smoothscroll('a[href*="#"]',{ 
+        speed: 1000,
+        speedAsDuration: true
+        });
+    </script>
+
+    
+    
+</body>
+</html>
+	

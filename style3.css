@@ -1,0 +1,81 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+}
+.header{
+    width: 150%;
+    min-height: 100vh;
+    background-image: url(images/pexels-tirachard-kumtanom-733852.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.raw2 {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding: 35px;
+}
+
+
+.raw2 h2 {
+    color: darkcyan;
+    font-size: 20px;
+}
+
+.raw2 h3 {
+    color: darkcyan;
+    font-size: 15px;
+}
+
+.raw2 p {
+    color: black;
+}
+
+.raw2 ul.list1 {
+    color: gray;
+    padding-left: 50px;
+}
+
+.raw2 ul.list2 {
+    color: gray;
+    padding-left: 50px;
+}
+
+.raw2 ul.list3 {
+    color: gray;
+    padding-left: 70px;
+}
+
+.raw2 p:hover {
+    color: rgb(0, 0, 0);
+}
+
+.raw2 ul.list1:hover {
+    color: rgb(0, 0, 0);
+    padding-left: 50px;
+}
+
+.raw2 ul.list2:hover {
+    color: rgb(0, 0, 0);
+    padding-left: 50px;
+}
+
+.raw2 ul.list3:hover {
+    color: rgb(0, 0, 0);
+    padding-left: 70px;
+}
+
+.wer1 {
+    display: flex;
+    justify-content: center;
+}
+
+.wer1 button {
+    margin: 3px;
+}
+
+
